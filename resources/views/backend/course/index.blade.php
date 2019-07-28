@@ -84,12 +84,12 @@
                 </li>
                 <li class="sidebar-label pt25">Courses</li>
                 <li>
-                    <a class="accordion-toggle" href="{{url('admin/course')}}">
+                    <a class="accordion-toggle" href="{{route('course.create')}}">
                         <span class="caret"></span>
                         <span class="sidebar-title">Add courses</span>
                         <span class="sb-menu-icon fa fa-share-square-o"></span>
                     </a>
-                    <a class="accordion-toggle" href="{{url('admin/course/manage')}}">
+                    <a class="accordion-toggle" href="{{route('course.index')}}">
                         <span class="caret"></span>
                         <span class="sidebar-title">Manage courses</span>
                         <span class="sb-menu-icon fa fa-share-square-o"></span>
