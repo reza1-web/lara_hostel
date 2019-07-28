@@ -1,5 +1,51 @@
+<!DOCTYPE html>
+<html>
 
-  <header class="navbar navbar-fixed-top ">
+<head>
+    <!-- Meta and Title -->
+    <meta charset="utf-8">
+    <title>AdminK - A Responsive Bootstrap 3 Admin Dashboard Template</title>
+    <meta name="keywords" content="HTML5, Bootstrap 3, Admin Template, UI Theme"/>
+    <meta name="description" content="AdminK - A Responsive HTML5 Admin UI Framework">
+    <meta name="author" content="ThemeREX">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="{{asset('backend/assets/img/favicon.png')}}">
+
+    <!-- Angular material -->
+    <link rel="stylesheet" type="text/css" href="{{asset('backend/assets/skin/css/angular-material.min.css')}}">
+    
+    <!-- Icomoon -->
+    <link rel="stylesheet" type="text/css" href="{{asset('backend/assets/fonts/icomoon/icomoon.css')}}">    
+    
+    <!-- AnimatedSVGIcons -->
+    <link rel="stylesheet" type="text/css" href="{{asset('backend/assets/fonts/animatedsvgicons/css/codropsicons.css')}}">
+
+    <!-- CSS - allcp forms -->
+    <link rel="stylesheet" type="text/css" href="{{asset('backend/assets/allcp/forms/css/forms.css')}}">
+
+    <!-- Plugins -->
+    <link rel="stylesheet" type="text/css" href="{{asset('backend/assets/js/utility/malihu-custom-scrollbar-plugin-master/jquery.mCustomScrollbar.min.css')}}">
+
+    <!-- CSS - theme -->
+    <link rel="stylesheet" type="text/css" href="{{asset('backend/assets/skin/default_skin/less/theme.css')}}">
+    
+    <!-- IE8 HTML5 support -->
+    <!--[if lt IE 9]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.2/html5shiv.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body class="of-y-h">
+
+<!-- Body Wrap -->
+<div id="main">
+
+    <!-- Header  -->
+    <header class="navbar navbar-fixed-top ">
         <ul class="nav navbar-nav navbar-left">
             <li class="dropdown dropdown-fuse hidden-xs">
                 <div class="navbar-btn btn-group phn">
@@ -386,3 +432,4 @@
             </li>
         </ul>
     </header>
+    <!-- /Header -->

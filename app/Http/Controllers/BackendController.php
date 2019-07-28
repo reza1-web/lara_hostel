@@ -8,6 +8,6 @@ class BackendController extends Controller
 {
     public function index()
     {
-        return view('backend.layout.default');
+        return view('backend.pages.home');
     }
 }
