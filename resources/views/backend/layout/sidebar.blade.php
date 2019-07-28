@@ -27,57 +27,31 @@
             <ul class="nav sidebar-menu">
                 <li class="sidebar-label pt30">Navigation</li>
                 <li>
-                    <a class="accordion-toggle " href="#">
-                        <span class="caret"></span>
+                    <a class="accordion-toggle " href="{{route('admin.index')}}">
                         <span class="sidebar-title">Dashboard</span>
                         <span class="sb-menu-icon fa fa-home"></span>
                     </a>
-                    <ul class="nav sub-nav">
-                        <li class="">
-                            <a href="index.html">
-                                Layout 1 
-                            </a>
-                        </li>
-                        <li>
-                            <a href="index2.html">
-                                Layout 2 
-                            </a>
-                        </li>
-                    </ul>
+                    
                 </li>
-                <li class="sidebar-label pt25">Tools</li>
+                
                 <li>
                     <a class="accordion-toggle" href="#">
                         <span class="caret"></span>
-                        <span class="sidebar-title">Sales Statistics</span>
+                        <span class="sidebar-title">Course</span>
                         <span class="sb-menu-icon fa fa-share-square-o"></span>
                     </a>
                     <ul class="nav sub-nav">
                         <li>
-                            <a href="index2.html">
-                                Overview 
+                            <a href="{{route('course.index')}}">
+                                Manage courses
                             </a>
                         </li>
                         <li>
-                            <a href="sales-stats-products.html">
-                                Products 
+                            <a href="{{route('course.create')}}">
+                                Add courses 
                             </a>
                         </li>
-                        <li>
-                            <a href="sales-stats-purchases.html">
-                                Purchases 
-                            </a>
-                        </li>
-                        <li>
-                            <a href="sales-stats-clients.html">
-                                Clients 
-                            </a>
-                        </li>
-                        <li>
-                            <a href="sales-stats-general-settings.html">
-                                General Settings 
-                            </a>
-                        </li>
+                        
                     </ul>
                 </li>                
                 <li>

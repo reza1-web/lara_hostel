@@ -12,18 +12,16 @@
 */
 
 Route::resource('/', 'FrontController');
-Route::resource('/admin/course', 'courseController');
 
 
 
 
 
-Route::get('/admin', 'BackendController@index');
-// Route::get('/admin/course', 'CourseController@index');
-// Route::get('/admin/course/manage', 'CourseController@managecourse');
-// Route::post('/admin/course/store', 'CourseController@coursestore');
-
-Route::get('/admin/room', 'RoomController@index');
-Route::get('/admin/room/manage', 'RoomController@manageroom');
-Route::get('/admin/registration', 'StudentregController@index');
-Route::get('/admin/registration/manage', 'StudentregController@managestudent');
+Route::group(['prefix' => 'admin'], function () {
+Route::get('/', 'BackendController@index')->name('admin.index');
+Route::resource('/course', 'CourseController');
+Route::get('/room', 'RoomController@index');
+Route::get('/room/manage', 'RoomController@manageroom');
+Route::get('//registration', 'StudentregController@index');
+Route::get('/registration/manage', 'StudentregController@managestudent');
+});

@@ -3,7 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-
+use App\Course;
 class courseController extends Controller
 {
     /**
@@ -12,8 +12,10 @@ class courseController extends Controller
      * @return \Illuminate\Http\Response
      */
     public function index()
+
     {
-        return view ('backend.course.index');
+        $courses = Course::all();
+        return view ('backend.course.index',compact('courses'));
     }
 
     /**
@@ -23,7 +25,7 @@ class courseController extends Controller
      */
     public function create()
     {
-        //
+        return view('backend.course.create');
     }
 
     /**
@@ -34,7 +36,8 @@ class courseController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        Course::create($request->all());
+        return back()->with('success','Course Added Successfully');
     }
 
     /**
