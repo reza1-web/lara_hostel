@@ -31,13 +31,13 @@
                 <div class="form-group">
                     <label for="firstName" class="col-sm-3 control-label">First Name</label>
                     <div class="col-sm-9">
-                        <input type="text" name="text" placeholder="First Name" class="form-control" autofocus>
+                        <input type="text" name="firstname" placeholder="First Name" class="form-control" autofocus>
                     </div>
                 </div>
                 <div class="form-group">
                     <label for="lastName" class="col-sm-3 control-label">Last Name</label>
                     <div class="col-sm-9">
-                        <input type="text" name="text" placeholder="Last Name" class="form-control" autofocus>
+                        <input type="text" name="lastname" placeholder="Last Name" class="form-control" autofocus>
                     </div>
                 </div>
                 <div class="form-group">
@@ -49,25 +49,25 @@
                 <div class="form-group">
                     <label for="password" class="col-sm-3 control-label">Father Name*</label>
                     <div class="col-sm-9">
-                        <input type="text" name="text" placeholder="Enter Name" class="form-control">
+                        <input type="text" name="fathername" placeholder="Enter Name" class="form-control">
                     </div>
                 </div>
                 <div class="form-group">
                     <label for="password" class="col-sm-3 control-label">Mother Name*</label>
                     <div class="col-sm-9">
-                        <input type="text" name="text" placeholder="Enter Name" class="form-control">
+                        <input type="text" name="mothername" placeholder="Enter Name" class="form-control">
                     </div>
                 </div>
                 <div class="form-group">
                     <label for="birthDate" class="col-sm-3 control-label">Date of Birth*</label>
                     <div class="col-sm-9">
-                        <input type="date" id="birthDate" name="date" class="form-control">
+                        <input type="date" name="date of birth" class="form-control">
                     </div>
                 </div>
                 <div class="form-group">
                     <label for="phoneNumber" class="col-sm-3 control-label">Phone number </label>
                     <div class="col-sm-9">
-                        <input type="phoneNumber" id="phoneNumber" name="phoneNumber" placeholder="Phone number" class="form-control">
+                        <input type="phoneNumber" name="phoneNumber" placeholder="Phone number" class="form-control">
                         <span class="help-block">Your phone number won't be disclosed anywhere </span>
                     </div>
                 </div>
