@@ -2,12 +2,12 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-md-3 text-center text-md-left">
-					<img src="{{URL::to('frontend/img/gallery/l.jpg')}}" alt="">
-					<p class="color-grey mt-4">Avenue Street 3284<br>Thessaloniki</p>
+					<img src="{{URL::to('frontend/img/gallery/aaa.jpg')}}" alt="">
+					<p class="color-grey mt-4">IDB Hostel, Avenue Street 3284<br>DHAKA</p>
 				</div>
 				<div class="col-md-4 text-center text-md-left">
 					<h6 class="color-white mb-3">information</h6>
-					<a href="tandc.html">terms &amp; conditions</a>
+					<a href="tandc.html">IDB Hostel terms &amp; conditions</a>
 					<a href="services.html">services</a>
 					<a href="restaurant.html">restaurant</a>
 					<a href="testimonials.html">testimonials</a>
@@ -15,7 +15,7 @@
 				</div>
 				<div class="col-md-5 mt-4 mt-md-0 text-center text-md-left logos-footer">
 					<h6 class="color-white mb-3">about us</h6>
-					<p class="color-grey mb-4">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores.</p>
+					<p class="color-grey mb-4">  Hostel of IDB At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores.</p>
 					<img src="img/logos/1.png" alt="">
 					<img src="img/logos/2.png" alt="">
 					<img src="img/logos/3.png" alt="">

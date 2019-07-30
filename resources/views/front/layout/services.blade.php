@@ -53,7 +53,7 @@
 				</div>
 				<div class="col-xl-6 px-0 order-first order-xl-last mt-5 mt-xl-0">
 					<div class="img-wrap" id="rev-2">
-						<img src="{URL::to('frontend/img/gallery/rs1.jpg')}}" alt="">
+						<img src="{{URL::to('frontend/img/gallery/r4.jpg')}}" alt="">
 						<div class="text-element-over">sea view suite</div>
 					</div>
 				</div>
@@ -75,7 +75,7 @@
 				<div class="col-sm-6 col-lg-3 pt-4 pt-sm-0">
 					<a href="services.html">
 						<div class="img-wrap services-wrap">
-							<img src="{{URL::to('frontend/img/gallery/pl.jpg')}}" alt="">
+							<img src="{{URL::to('frontend/img/gallery/rs1.jpg')}}" alt="">
 							<div class="services-text-over">restaurant</div>
 						</div>
 					</a>
@@ -105,7 +105,7 @@
 			<div class="row justify-content-center">
 				<div class="col-md-8 align-self-center">
 					<div class="subtitle with-line text-center mb-4">elegant suites</div>
-					<h3 class="text-center padding-bottom-small">Unpretentious luxury</h3>
+					<h3 class="text-center padding-bottom-small">Unpretentious luxury Hostel of IDB</h3>
 				</div>
 				<div class="section clearfix"></div>
 				<div class="col-sm-6 col-lg-4">
@@ -225,7 +225,7 @@
 		<div class="container">
 			<div class="row justify-content-center">
 				<div class="col-md-8 align-self-center">
-					<div class="subtitle with-line text-center mb-4">luxury</div>
+					<div class="subtitle with-line text-center mb-4">luxury HOSTEL</div>
 					<h3 class="text-center padding-bottom-small">Our rooms</h3>
 				</div>
 				<div class="section clearfix"></div>
@@ -369,8 +369,8 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12 text-center">	
-					<h5 class="color-grey">A new dimension of luxury.</h5>
-					<p class="color-white mt-3 mb-3"><em>our presentation, 0:48 min</em></p>
+					<h5 class="color-grey">A new dimension of luxury Hostel IDB.</h5>
+					<p class="color-white mt-3 mb-3"><em> IDB presentation, 0:48 min</em></p>
 					<a href="https://vimeo.com/54851233" class="video-button" data-fancybox><i class="fa fa-play"></i></a>
 				</div>
 			</div>
