@@ -1,15 +1,33 @@
-@extends('backend.layout.dafault')
+@extends('backend.layout.default')
 @section('content')
- <section id="content_wrapper">
+
+
         
            <h1>Student Registration</h1>
 
           
     
 
+<section id="content" class="table-layout">
 
-<form class="form-horizontal" role="form" style="padding-right: 50px;">
-                
+            
+
+            <!-- Column Center -->
+            <div class="chute chute-center" >
+                <div class="chute-scroller mw1000 center-block">
+
+                    <div class="tab-content mw900 center-block center-children">
+
+                        <!-- Comment Form -->
+                        <div class=" theme-primary tab-pane mw600 active" id="comment" role="tabpanel">
+                            <div class="panel ">
+                                <div class="panel-heading">
+                                    <span class="panel-title pn">Leave a comment</span>
+                                </div>
+                                <!-- /Panel Heading -->
+
+                               <form class="form-horizontal" action="{{route('student.store')}}"method="post">
+                            {{csrf_field()}}
                 <div class="form-group">
                     <label for="firstName" class="col-sm-3 control-label">First Name</label>
                     <div class="col-sm-9">
@@ -31,13 +49,13 @@
                 <div class="form-group">
                     <label for="password" class="col-sm-3 control-label">Father Name*</label>
                     <div class="col-sm-9">
-                        <input type="password" id="password" placeholder="Enter Name" class="form-control">
+                        <input type="text" id="password" placeholder="Enter Name" class="form-control">
                     </div>
                 </div>
                 <div class="form-group">
                     <label for="password" class="col-sm-3 control-label">Mother Name*</label>
                     <div class="col-sm-9">
-                        <input type="password" id="password" placeholder="Enter Name" class="form-control">
+                        <input type="text" id="password" placeholder="Enter Name" class="form-control">
                     </div>
                 </div>
                 <div class="form-group">
@@ -73,12 +91,28 @@
                 </div>
                 <button type="submit" class="btn btn-primary btn-block">Register</button>
             </form>
+                                <!-- /Form -->
+                            </div>
+                            <!-- /Panel -->
+                        </div>
+                        <!-- /Comment Form -->
+
+                        
+
+                    </div>
+
+                </div>
+            </div>
+            <!-- /Column Center -->
+
+        </section>
 
 
 
 
-        
 
-    </section>
+
+     
+
     <!-- /Main Wrapper -->
     @stop

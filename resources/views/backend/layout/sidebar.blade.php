@@ -27,7 +27,7 @@
          <ul class="nav sidebar-menu">
                 <li class="sidebar-label pt30">Navigation</li>
                 <li>
-                    <a class="accordion-toggle menu-open" href="{{url('admin')}}">
+                    <a  href="{{url('admin')}}">
                         <span class="caret"></span>
                         <span class="sidebar-title">Dashboard</span>
                         <span class="sb-menu-icon fa fa-home"></span>
@@ -36,12 +36,12 @@
                 </li>
                 <li class="sidebar-label pt25">Courses</li>
                 <li>
-                    <a class="accordion-toggle" href="{{url('/admin/course')}}">
+                    <a  href="{{route('course.create')}}">
                         <span class="caret"></span>
                         <span class="sidebar-title">Add courses</span>
                         <span class="sb-menu-icon fa fa-share-square-o"></span>
                     </a>
-                    <a class="accordion-toggle" href="{{url('/admin/course/manage')}}">
+                    <a  href="{{route('course.index')}}">
                         <span class="caret"></span>
                         <span class="sidebar-title">Manage courses</span>
                         <span class="sb-menu-icon fa fa-share-square-o"></span>
@@ -49,12 +49,12 @@
 
                      <li class="sidebar-label pt25">Rooms</li>
                 <li>
-                    <a class="accordion-toggle" href="{{url('admin/room')}}">
+                    <a  href="{{url('admin/room')}}">
                         <span class="caret"></span>
                         <span class="sidebar-title">Add Rooms</span>
                         <span class="sb-menu-icon fa fa-share-square-o"></span>
                     </a>
-                    <a class="accordion-toggle" href="{{url('admin/room/manage')}}#">
+                    <a  href="{{url('admin/room/manage')}}#">
                         <span class="caret"></span>
                         <span class="sidebar-title">Manage Rooms</span>
                         <span class="sb-menu-icon fa fa-share-square-o"></span>
@@ -63,7 +63,7 @@
                 </li> 
                 <li class="sidebar-label pt30"> Students Record</li>
                  <li>
-                    <a class="accordion-toggle menu-open" href="{{url('admin/registration')}}">
+                    <a  href="{{route('student.create')}}">
                         <span class="caret"></span>
                         <span class="sidebar-title">Student Registration</span>
                         <span class="sb-menu-icon fa fa-home"></span>
@@ -72,7 +72,7 @@
                 </li>
                   
                  <li>
-                    <a class="accordion-toggle menu-open" href="{{url('admin/registration/manage')}}">
+                    <a  href="{{route('student.index')}}">
                         <span class="caret"></span>
                         <span class="sidebar-title">Manage Students</span>
                         <span class="sb-menu-icon fa fa-home"></span>

@@ -1,5 +1,5 @@
     
-@extends('backend.layout.dafault')
+@extends('backend.layout.default')
 @section('content')
 
     <section id="content_wrapper">  

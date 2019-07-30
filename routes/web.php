@@ -14,10 +14,12 @@
 Route::resource('/', 'FrontController');
 
 
+Route::prefix('admin')->group(function () {
+	Route::get('/', 'BackendController@index');
+	Route::resource('/course', 'CourseController');
+	Route::resource('/student', 'StudentController');
+	Route::get('/room', 'RoomController@index');
+	Route::get('/room/manage', 'RoomController@manageroom');
 
-Route::get('/admin', 'BackendController@index');
-Route::resource('/admin/course', 'CourseController');
-Route::get('/admin/room', 'RoomController@index');
-Route::get('/admin/room/manage', 'RoomController@manageroom');
-Route::get('/admin/registration', 'StudentregController@index');
-Route::get('/admin/registration/manage', 'StudentregController@managestudent');
+});
+
