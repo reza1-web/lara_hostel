@@ -101,7 +101,7 @@
 		<div class="menu">
 			<a href="index.html" >
 				<div class="logo">
-					<img src="img/logo.png" alt="">
+					<img src="{{URL::to('frontend/img/gallery/aaa.jpg')}}" alt="">
 				</div>
 			</a>
 			<ul>

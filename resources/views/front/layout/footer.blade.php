@@ -2,7 +2,7 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-md-3 text-center text-md-left">
-					<img src="img/logo.png" alt="">
+					<img src="{{URL::to('frontend/img/gallery/l.jpg')}}" alt="">
 					<p class="color-grey mt-4">Avenue Street 3284<br>Thessaloniki</p>
 				</div>
 				<div class="col-md-4 text-center text-md-left">
@@ -28,7 +28,7 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-md-6 text-center text-md-left mb-2 mb-md-0">
-					<p>2019 © Thalia. All rights reserved.</p>
+					<p>2019 © Hostel IDB. All rights reserved.</p>
 				</div>
 				<div class="col-md-6 text-center text-md-right">
 					<a href="#" class="social-footer-bottom">facebook</a>

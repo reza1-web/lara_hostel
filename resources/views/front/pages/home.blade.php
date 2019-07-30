@@ -122,9 +122,9 @@
 				</a>
 			</div>								 
 			<div class="item">	
-				<a href="img/gallery/6.jpg" data-fancybox="gallery">							 
+				<a href="{{URL::to('frontend/img/gallery/aaa.jpg')}}" data-fancybox="gallery">							 
 					<div class="img-wrap gallery-small">
-						<img src="img/gallery/6-s.jpg" alt="">
+						<img src="{{URL::to('frontend/img/gallery/aaa.jpg')}}" alt="">
 					</div>
 				</a>
 			</div>								 
@@ -187,7 +187,7 @@
 			<div class="item">	
 				<a href="img/gallery/5.jpg" data-fancybox="gallery">							 
 					<div class="img-wrap gallery-small">
-						<img src="img/gallery/5-s.jpg" alt="">
+						<img src="{{URL::to('fonts/img/gallery/5-s.jpg')}}" alt="">
 					</div>
 				</a>
 			</div>										 

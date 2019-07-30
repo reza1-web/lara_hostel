@@ -15,13 +15,9 @@ Route::resource('/', 'FrontController');
 
 
 
-
-
-Route::group(['prefix' => 'admin'], function () {
-Route::get('/', 'BackendController@index')->name('admin.index');
-Route::resource('/course', 'CourseController');
-Route::get('/room', 'RoomController@index');
-Route::get('/room/manage', 'RoomController@manageroom');
-Route::get('//registration', 'StudentregController@index');
-Route::get('/registration/manage', 'StudentregController@managestudent');
-});
+Route::get('/admin', 'BackendController@index');
+Route::resource('/admin/course', 'CourseController');
+Route::get('/admin/room', 'RoomController@index');
+Route::get('/admin/room/manage', 'RoomController@manageroom');
+Route::get('/admin/registration', 'StudentregController@index');
+Route::get('/admin/registration/manage', 'StudentregController@managestudent');

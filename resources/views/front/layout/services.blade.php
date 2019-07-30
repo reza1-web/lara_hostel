@@ -15,7 +15,7 @@
 				</div>
 				<div class="col-md-6 mt-4 mt-md-0">
 					<div class="img-wrap">
-						<img src="img/rooms.png" alt="">
+						<img src="{{URL::to('frontend/img/gallery/1.jpg')}}" alt="">
 					</div>
 				</div>
 			</div>
@@ -27,7 +27,7 @@
 			<div class="row mx-0">
 				<div class="col-xl-6 px-0">
 					<div class="img-wrap" id="rev-1">
-						<img src="img/room1.jpg" alt="">
+						<img src="{{URL::to('frontend/img/gallery/aaa.jpg')}}" alt="">
 						<div class="text-element-over">private pool suite</div>
 					</div>
 				</div>
@@ -53,7 +53,7 @@
 				</div>
 				<div class="col-xl-6 px-0 order-first order-xl-last mt-5 mt-xl-0">
 					<div class="img-wrap" id="rev-2">
-						<img src="img/room2.jpg" alt="">
+						<img src="{URL::to('frontend/img/gallery/rs1.jpg')}}" alt="">
 						<div class="text-element-over">sea view suite</div>
 					</div>
 				</div>
@@ -67,7 +67,7 @@
 				<div class="col-sm-6 col-lg-3">
 					<a href="services.html">
 						<div class="img-wrap services-wrap">
-							<img src="img/ser-1.jpg" alt="">
+							<img src="{{URL::to('frontend/img/gallery/pl.jpg')}}" alt="">
 							<div class="services-text-over">spa salon</div>
 						</div>
 					</a>
@@ -75,7 +75,7 @@
 				<div class="col-sm-6 col-lg-3 pt-4 pt-sm-0">
 					<a href="services.html">
 						<div class="img-wrap services-wrap">
-							<img src="img/ser-2.jpg" alt="">
+							<img src="{{URL::to('frontend/img/gallery/pl.jpg')}}" alt="">
 							<div class="services-text-over">restaurant</div>
 						</div>
 					</a>
@@ -83,7 +83,7 @@
 				<div class="col-sm-6 col-lg-3 pt-4 pt-lg-0">
 					<a href="services.html">
 						<div class="img-wrap services-wrap">
-							<img src="img/ser-3.jpg" alt="">
+							<img src="{{URL::to('frontend/img/gallery/pl.jpg')}}" alt="">
 							<div class="services-text-over">pool</div>
 						</div>
 					</a>
@@ -91,7 +91,7 @@
 				<div class="col-sm-6 col-lg-3 pt-4 pt-lg-0">
 					<a href="services.html">
 						<div class="img-wrap services-wrap">
-							<img src="img/ser-4.jpg" alt="">
+							<img src="{{URL::to('frontend/img/gallery/pl.jpg')}}" alt="">
 							<div class="services-text-over">activities</div>
 						</div>
 					</a>
@@ -110,7 +110,7 @@
 				<div class="section clearfix"></div>
 				<div class="col-sm-6 col-lg-4">
 					<div class="services-box text-center">
-						<img src="img/1.svg" alt="">
+						<img src="{{URL::to('frontend/img/gallery/pl.jpg')}}" alt="">
 						<h5 class="mt-2">smoking free</h5>
 						<p class="mt-3">Sed ut perspiciatis unde omnis iste natus error sit, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et.</p>
 						<a class="mt-1 btn btn-primary" href="services.html">read more</a>
@@ -118,7 +118,7 @@
 				</div>
 				<div class="col-sm-6 col-lg-4 mt-5 mt-sm-0">
 					<div class="services-box text-center">
-						<img src="img/2.svg" alt="">
+						<img src="{{URL::to('frontend/img/gallery/pl.jpg')}}" alt="">
 						<h5 class="mt-2">king beds</h5>
 						<p class="mt-3">Sed ut perspiciatis unde omnis iste natus error sit, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et.</p>
 						<a class="mt-1 btn btn-primary" href="services.html">read more</a>
@@ -126,7 +126,7 @@
 				</div>
 				<div class="col-sm-6 col-lg-4 mt-5 mt-lg-0">
 					<div class="services-box text-center">
-						<img src="img/3.svg" alt="">
+						<img src="{{URL::to('frontend/img/gallery/pl.jpg')}}" alt="">
 						<h5 class="mt-2">Yacht rental</h5>
 						<p class="mt-3">Sed ut perspiciatis unde omnis iste natus error sit, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et.</p>
 						<a class="mt-1 btn btn-primary" href="services.html">read more</a>
@@ -134,7 +134,7 @@
 				</div>
 				<div class="col-sm-6 col-lg-4 mt-5">
 					<div class="services-box text-center">
-						<img src="img/4.svg" alt="">
+						<img src="{{URL::to('frontend/img/gallery/pl.jpg')}}" alt="">
 						<h5 class="mt-2">welcome drink</h5>
 						<p class="mt-3">Sed ut perspiciatis unde omnis iste natus error sit, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et.</p>
 						<a class="mt-1 btn btn-primary" href="services.html">read more</a>
@@ -142,7 +142,7 @@
 				</div>
 				<div class="col-sm-6 col-lg-4 mt-5">
 					<div class="services-box text-center">
-						<img src="img/5.svg" alt="">
+						<img src="{{URL::to('frontend/img/gallery/pl.jpg')}}" alt="">
 						<h5 class="mt-2">swimming pool</h5>
 						<p class="mt-3">Sed ut perspiciatis unde omnis iste natus error sit, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et.</p>
 						<a class="mt-1 btn btn-primary" href="services.html">read more</a>
@@ -150,7 +150,7 @@
 				</div>
 				<div class="col-sm-6 col-lg-4 mt-5">
 					<div class="services-box text-center">
-						<img src="img/6.svg" alt="">
+						<img src="{{URL::to('frontend/img/gallery/pl.jpg')}}" alt="">
 						<h5 class="mt-2">food included</h5>
 						<p class="mt-3">Sed ut perspiciatis unde omnis iste natus error sit, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et.</p>
 						<a class="mt-1 btn btn-primary" href="services.html">read more</a>
@@ -239,7 +239,7 @@
 							<i class="fa fa-star"></i>
 							<i class="fa fa-star"></i>
 						</div>
-						<img src="img/room3.jpg" alt="">
+						<img src="{{URL::to('frontend/img/gallery/r4.jpg')}}" alt="">
 						<div class="room-box-in">
 							<h5 class="">pool suite</h5>
 							<p class="mt-3">Sed ut perspiciatis unde omnis, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et.</p>
@@ -264,7 +264,7 @@
 							<i class="fa fa-star"></i>
 							<i class="fa fa-star-o"></i>
 						</div>
-						<img src="img/room4.jpg" alt="">
+						<img src="{{URL::to('frontend/img/gallery/r3.jpg')}}" alt="">
 						<div class="room-box-in">
 							<h5 class="">small room</h5>
 							<p class="mt-3">Sed ut perspiciatis unde omnis, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et.</p>
@@ -289,7 +289,7 @@
 							<i class="fa fa-star"></i>
 							<i class="fa fa-star"></i>
 						</div>
-						<img src="img/room5.jpg" alt="">
+						<img src="{{URL::to('frontend/img/gallery/r2.jpg')}}" alt="">
 						<div class="room-box-in">
 							<h5 class="">Apartment</h5>
 							<p class="mt-3">Sed ut perspiciatis unde omnis, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et.</p>
@@ -314,7 +314,7 @@
 							<i class="fa fa-star"></i>
 							<i class="fa fa-star"></i>
 						</div>
-						<img src="img/room6.jpg" alt="">
+						<img src="{{URL::to('frontend/img/gallery/r1.jpg')}}" alt="">
 						<div class="room-box-in">
 							<h5 class="">big Apartment</h5>
 							<p class="mt-3">Sed ut perspiciatis unde omnis, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et.</p>
@@ -389,7 +389,7 @@
 			<div class="row background-white p-0 m-0">
 				<div class="col-xl-6 p-0">
 					<div class="img-wrap" id="rev-3">
-						<img src="img/rest-1.jpg" alt="">
+						<img src="{{URL::to('frontend/img/gallery/pl.jpg')}}" alt="">
 					</div>
 				</div>
 				<div class="col-xl-6 p-0 align-self-center">
@@ -414,7 +414,7 @@
 				</div>
 				<div class="col-xl-6 order-first order-xl-last p-0">
 					<div class="img-wrap" id="rev-4">
-						<img src="img/rest-2.jpg" alt="">
+						<img src="{{URL::to('frontend/img/gallery/pl1.jpg')}}" alt="">
 					</div>
 				</div>
 			</div>
