@@ -5,7 +5,8 @@
         
            <h1>Add a room</h1>
 
-           <form>
+           <form method="post" action="{{route('room.store')}}">
+            {{csrf_field()}}
   <div class="form-group">
     <label for="exampleFormControlSelect1"> select seater</label>
     <select class="form-control" >

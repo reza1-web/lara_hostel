@@ -20,6 +20,7 @@ Route::prefix('admin')->group(function () {
 	Route::resource('/student', 'StudentController');
 	Route::get('/room', 'RoomController@index');
 	Route::get('/room/manage', 'RoomController@manageroom');
+	Route::post('/room/add', 'RoomController@store')->name('room.store');
 
 });
 

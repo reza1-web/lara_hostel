@@ -15,7 +15,8 @@ class StudentController extends Controller
      */
     public function index()
     {
-        return view ('backend.registration.managestudent');
+        $allstudent= Student::all();
+        return view ('backend.registration.managestudent',compact('allstudent'));
     }
 
     /**
