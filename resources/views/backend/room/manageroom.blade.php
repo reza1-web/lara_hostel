@@ -5,7 +5,7 @@
 
           
            <h1>Manage Room</h1>          
-     <table class="table table-bordered" style="margin-right: 50px;">
+     <table class="table table-bordered" style="padding-left:100px;  margin-right: 50px;">
   <thead style="background-color: black; color: white; line-height: 50px;">
     <tr>
       <th scope="col">ID</th>
