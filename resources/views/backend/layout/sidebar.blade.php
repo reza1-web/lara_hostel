@@ -49,12 +49,12 @@
 
                      <li class="sidebar-label pt25">Rooms</li>
                 <li>
-                    <a  href="{{url('admin/room')}}">
+                    <a  href="{{route('room.create')}}">
                         <span class="caret"></span>
                         <span class="sidebar-title">Add Rooms</span>
                         <span class="sb-menu-icon fa fa-share-square-o"></span>
                     </a>
-                    <a  href="{{url('admin/room/manage')}}#">
+                    <a  href="{{route('room.index')}}">
                         <span class="caret"></span>
                         <span class="sidebar-title">Manage Rooms</span>
                         <span class="sb-menu-icon fa fa-share-square-o"></span>

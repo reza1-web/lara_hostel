@@ -9,7 +9,7 @@
             {{csrf_field()}}
   <div class="form-group">
     <label for="exampleFormControlSelect1"> select seater</label>
-    <select class="form-control" >
+    <select class="form-control" name="select_seater" >
 
       <option>select one</option>
       <option value="single seat">single seat</option>
@@ -20,11 +20,11 @@
   </div>
   <div class="form-group">
     <label for="exampleInputPassword1">Room No.</label>
-    <input type="text" class="form-control" id="exampleInputPassword1" placeholder="Enter Your room">
+    <input type="text" class="form-control" id="exampleInputPassword1" name="room_no" placeholder="Enter Your room">
   </div>
   <div class="form-group">
     <label for="exampleInputPassword1">Fee (per student)</label>
-    <input type="text" class="form-control" id="exampleInputPassword1" placeholder="Enter Your amount">
+    <input type="text" class="form-control" id="exampleInputPassword1" name="fee" placeholder="Enter Your amount">
   </div>
   
   <button type="submit" class="btn btn-primary">Create  room</button>

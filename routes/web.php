@@ -18,9 +18,8 @@ Route::prefix('admin')->group(function () {
 	Route::get('/', 'BackendController@index');
 	Route::resource('/course', 'CourseController');
 	Route::resource('/student', 'StudentController');
-	Route::get('/room', 'RoomController@index');
-	Route::get('/room/manage', 'RoomController@manageroom');
-	Route::post('/room/add', 'RoomController@store')->name('room.store');
+	Route::resource('/room', 'RoomController');
+
 
 });
 
