@@ -18,20 +18,9 @@
 
                 <div class="chute-scroller">
 
-                    <h4> Fixed Header </h4>
+                    <h4> Welcome to Admin IDB Hostel </h4>
                     <hr class="alt short">
-                    <p class="text-muted"> Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse
-                        molestie
-                        consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio
-                        dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla
-                        facilisi.
-                        <br><br>Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id
-                        quod
-                        mazim placerat facer possim assum. Typi non habent claritatem insitam; est usus legentis in
-                        iis qui
-                        facit eorum claritatem. Investigationes demonstraverunt lectores legere me lius quod ii legunt
-                        saepius.</p>
-
+                    <img style="width:100%;" src="{{URL::to('backend/assets/img/dsb.jpg')}}" alt="">
                     <!-- Scroll DEMO -->
                     <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
                     <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>

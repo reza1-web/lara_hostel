@@ -8,7 +8,7 @@
 			<div class="container">
 				<div class="row justify-content-center">
 					<div class="col-12 parallax-fade-top">
-						<div class="hero-text-ver-2">For the Joy<br>of Life</div>
+						<div class="hero-text-ver-2">IDB Hostel For the Joy<br>of Life</div>
 					</div>
 				</div>
 			</div>

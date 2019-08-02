@@ -7,7 +7,7 @@
 				<div class="col-md-6 align-self-center">
 					<div class="row justify-content-center">
 						<div class="col-10">
-							<div class="subtitle text-center mb-4">hotel Thalia</div>
+							<div class="subtitle text-center mb-4">IDB Hostel</div>
 							<h2 class="text-center">Here is a tribute to good life!</h2>
 							<p class="text-center mt-5">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident.</p>
 						</div>
@@ -28,13 +28,13 @@
 				<div class="col-xl-6 px-0">
 					<div class="img-wrap" id="rev-1">
 						<img src="{{URL::to('frontend/img/gallery/aaa.jpg')}}" alt="">
-						<div class="text-element-over">private pool suite</div>
+						<div class="text-element-over"> pool side room</div>
 					</div>
 				</div>
 				<div class="col-xl-6 px-0 mt-4 mt-xl-0 align-self-center">
 					<div class="row justify-content-center">
 						<div class="col-10 col-xl-8 text-center">
-							<h3 class="text-center">Private pool suite</h3>
+							<h3 class="text-center">Private pool side room</h3>
 							<p class="text-center mt-4">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et.</p>
 							<a class="mt-5 btn btn-primary" href="search.html">check availability</a>
 						</div>	
@@ -45,7 +45,7 @@
 				<div class="col-xl-6 px-0 mt-4 mt-xl-0 pb-5 pb-xl-0 align-self-center">
 					<div class="row justify-content-center">
 						<div class="col-10 col-xl-8 text-center">
-							<h3 class="text-center">Sea view suite</h3>
+							<h3 class="text-center">Sea view room</h3>
 							<p class="text-center mt-4">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et.</p>
 							<a class="mt-5 btn btn-primary" href="search.html">check availability</a>
 						</div>	
@@ -54,7 +54,7 @@
 				<div class="col-xl-6 px-0 order-first order-xl-last mt-5 mt-xl-0">
 					<div class="img-wrap" id="rev-2">
 						<img src="{{URL::to('frontend/img/gallery/r4.jpg')}}" alt="">
-						<div class="text-element-over">sea view suite</div>
+						<div class="text-element-over">sea view room</div>
 					</div>
 				</div>
 			</div>

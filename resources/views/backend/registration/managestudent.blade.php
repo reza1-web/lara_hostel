@@ -21,7 +21,7 @@
   <tbody>
     @foreach($allstudent as $student)
     <tr>
-      <th scope="row">1</th>
+      <th scope="row">{{$student->id}}</th>
       <td>{{$student->first_name}}</td>
       <td>{{$student->last_name}}</td>
       <td>{{$student->father_name}}</td>
